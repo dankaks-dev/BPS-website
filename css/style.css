@@ -25,15 +25,23 @@ nav a {
 }
 
 .hero {
-  height: 90vh;
-  background-size: cover;
-  background-position: center;
+  height: 70vh;
+  background-color: #f8f8f5; /* off-white tone */
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
-  text-shadow: 0 0 10px rgba(0,0,0,0.7);
   text-align: center;
+  color: #333333;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero-content p {
+  font-size: 1.25rem;
+  margin-top: 1rem;
 }
 
 .services, .testimonials, .page {
